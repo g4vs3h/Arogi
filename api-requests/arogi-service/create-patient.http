@@ -1,0 +1,12 @@
+### POST request to create a new patient entity/record
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Gaurav Singh New",
+  "email": "gsingh@gmail.com",
+  "address": "house no 123, Kadubeesanahalli",
+  "dateOfBirth": "1998-12-14",
+  "registeredDate": "2025-11-17"
+}
+###

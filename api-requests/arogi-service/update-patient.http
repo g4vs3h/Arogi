@@ -1,0 +1,11 @@
+### PUT request to updates an existing patient entity/record
+PUT http://localhost:4000/patients/86be2a85-8d88-49ee-bc1d-4ff7bcbd239b
+Content-Type: application/json
+
+{
+  "name": "Gaurav Singh Updated",
+  "email": "gsinghupdated@gmail.com",
+  "address": "house no 123, Kadubeesanahalli",
+  "dateOfBirth": "1998-12-14"
+}
+###
